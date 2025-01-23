@@ -1,4 +1,4 @@
-Here’s the updated README with the additional certificate:  
+
 
 ---
 
