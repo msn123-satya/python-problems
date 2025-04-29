@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="weather-container">
+    <h1>Weather App</h1>
+
+    <label for="countrySelect">Select Country:</label><br />
+    <select id="countrySelect">
+      <option value="IN">India</option>
+      <option value="US">United States</option>
+      <option value="GB">United Kingdom</option>
+      <option value="CA">Canada</option>
+      <option value="AU">Australia</option>
+      <!-- Add more countries as needed -->
+    </select><br /><br />
+
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div class="weather-info" id="weatherInfo"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
